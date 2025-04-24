@@ -11,6 +11,41 @@ This roadmap is designed for professionals with a background in QA Automation or
 
 ---
 
+## 📁 Repository Structure
+```bash
+sdet-to-ai-engineer/
+│
+├── README.md                  # Roadmap and repo summary
+├── .gitignore                 # Ignore models, temporary notebooks, etc.
+├── requirements.txt           # Required libraries (optional)
+│
+├── roadmap/                   # Learning roadmap documentation
+│   ├── roadmap.md
+│   └── resources.md
+│
+├── projects/                  # Practical projects per phase
+│   ├── invoice-ocr-nlp/       # AI for accounting
+│   ├── defect-detector/       # Computer vision for logistics
+│   └── product-forecasting/   # Demand prediction
+│
+├── notebooks/                 # Jupyter/Colab exploratory notebooks
+│   ├── ml_basics.ipynb
+│   ├── deep_learning_intro.ipynb
+│   └── nlp_invoice_extraction.ipynb
+│
+├── models/                    # Exported trained models (.pkl, .pt, .h5)
+│
+├── data/                      # Sample datasets (clean or dummy)
+│   ├── raw/                   # Raw data
+│   └── processed/             # Cleaned and ready-to-use data
+│
+└── scripts/                   # Scripts for preprocessing, training, etc.
+    ├── train.py
+    ├── predict.py
+    └── utils.py
+```
+---
+
 ## 🟩 Phase 1: Python + Data Analysis (1–2 months)
 ### Objectives:
 - Strengthen Python skills
@@ -74,9 +109,8 @@ This roadmap is designed for professionals with a background in QA Automation or
 ### Resources:
 - [Hugging Face NLP Course](https://huggingface.co/learn/nlp-course)
 - [LangChain Intro on YouTube](https://www.youtube.com/watch?v=6zQ4b6jJfd8)
-
+  
 ---
-
 ## 🟧 Phase 5: MLOps + Deployment (2 months)
 ### Objectives:
 - Serve models in production
@@ -111,8 +145,3 @@ This roadmap is designed for professionals with a background in QA Automation or
 - Updated LinkedIn + CV with AI projects
 
 ---
-
-## 🏁 Next Steps
-- Choose one real-world project to build for your business or freelance
-- Share your projects on LinkedIn and GitHub
-- Apply to AI roles (Globant, startups, freelance platforms)
