@@ -5,10 +5,22 @@ This roadmap is designed for professionals with a background in QA Automation or
 ---
 
 ## ✅ Overview
+
 - **Goal:** Land a job as an AI Engineer or build intelligent systems for your business.
 - **Estimated time:** 12–18 months
 - **Target profile:** SDET, Software Engineer, or Tool Developer with Python knowledge.
 
+---
+
+## 🛠 Environment Setup (Apple Silicon / M1/M2/M3)
+
+Make sure to use **Python 3.10**, as some libraries (like TensorFlow) are not compatible with Python 3.12 yet.
+
+### 1. Check Python 3.10 is installed:
+
+````bash
+python3.10 --version
+```
 ---
 
 ## 📁 Repository Structure
@@ -43,103 +55,129 @@ sdet-to-ai-engineer/
     ├── train.py
     ├── predict.py
     └── utils.py
-```
+````
+
 ---
 
 ## 🟩 Phase 1: Python + Data Analysis (1–2 months)
+
 ### Objectives:
+
 - Strengthen Python skills
 - Learn to manipulate and analyze data
 
 ### Topics:
+
 - Python (functions, OOP, data structures)
 - Pandas, NumPy
 - Data visualization: Matplotlib, Seaborn
 - Git + GitHub
 
 ### Resources:
+
 - [freeCodeCamp – Data Analysis with Python](https://www.freecodecamp.org/learn/data-analysis-with-python/)
 - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
 
 ---
 
 ## 🟨 Phase 2: Classical Machine Learning (2–3 months)
+
 ### Objectives:
+
 - Train predictive models
 - Understand metrics, overfitting, validation
 
 ### Topics:
+
 - Regression, classification, clustering
 - scikit-learn, XGBoost
 - Metrics: accuracy, F1, precision, recall
 
 ### Resources:
+
 - [Coursera – Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning)
 - [Hands-On ML with Scikit-Learn (book + GitHub)](https://github.com/ageron/handson-ml2)
 
 ---
 
 ## 🟥 Phase 3: Deep Learning + Computer Vision (2–3 months)
+
 ### Objectives:
+
 - Build neural networks
 - Apply image-based AI
 
 ### Topics:
+
 - Neural networks, CNNs
 - PyTorch or TensorFlow
 - Transfer learning: ResNet, EfficientNet
 - OpenCV, YOLOv8
 
 ### Resources:
+
 - [Coursera – Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)
 - [PyTorch Official Tutorials](https://pytorch.org/tutorials/)
 
 ---
 
 ## 🟦 Phase 4: NLP + Generative AI (2 months)
+
 ### Objectives:
+
 - Process and analyze text data
 - Use large language models (LLMs)
 
 ### Topics:
+
 - Tokenization, embeddings
 - Transformers, BERT, GPT
 - Hugging Face, LangChain
 
 ### Resources:
+
 - [Hugging Face NLP Course](https://huggingface.co/learn/nlp-course)
 - [LangChain Intro on YouTube](https://www.youtube.com/watch?v=6zQ4b6jJfd8)
-  
+
 ---
+
 ## 🟧 Phase 5: MLOps + Deployment (2 months)
+
 ### Objectives:
+
 - Serve models in production
 - Automate and monitor training/deployment
 
 ### Topics:
+
 - APIs with FastAPI or Flask
 - Docker, GitHub Actions
 - MLflow, Weights & Biases
 - Colab / AWS / GCP
 
 ### Resources:
+
 - [Full Stack Deep Learning](https://fullstackdeeplearning.com/)
 - [FastAPI ML Deployment Tutorial](https://www.youtube.com/watch?v=0sOvCWFmrtA)
 
 ---
 
 ## 🟫 Phase 6: Real Projects + Portfolio (1–2 months)
+
 ### Objectives:
+
 - Apply AI to real-world problems
 - Create public portfolio
 
 ### Project Ideas:
+
 - OCR + NLP for invoice automation
 - Defect detection with computer vision
 - Product flow prediction (logistics)
 - AI accounting assistant using LLMs
 
 ### Deliverables:
+
 - 3 AI projects on GitHub with READMEs
 - Optional: live demo on Streamlit, Hugging Face Spaces
 - Updated LinkedIn + CV with AI projects
