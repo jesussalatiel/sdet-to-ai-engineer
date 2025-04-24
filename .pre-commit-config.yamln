@@ -1,11 +1,6 @@
 repos:
-  - repo: https://github.com/psf/black
-    rev: 23.12.1
-    hooks:
-      - id: black
-
   - repo: local
-    hooks:
+o    hooks:
       - id: pylint-check
         name: Run pylint on staged files
         entry: bash -c 'pylint $(git diff --cached --name-only --diff-filter=ACM | grep -E "\.py$" || true)'
