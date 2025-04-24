@@ -1,0 +1,8 @@
+repos:
+  - repo: local
+    hooks:
+      - id: pylint-check
+        name: Run pylint on staged files
+        entry: bash -c 'pylint $(git diff --cached --name-only --diff-filter=ACM | grep -E "\.py$" || true)'
+        language: system
+        types: [python]
