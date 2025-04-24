@@ -18,12 +18,14 @@ Make sure to use **Python 3.10**, as some libraries (like TensorFlow) are not co
 
 ### 1. Check Python 3.10 is installed:
 
-````bash
+```bash
 python3.10 --version
 ```
+
 ---
 
 ## 📁 Repository Structure
+
 ```bash
 sdet-to-ai-engineer/
 │
@@ -55,7 +57,7 @@ sdet-to-ai-engineer/
     ├── train.py
     ├── predict.py
     └── utils.py
-````
+```
 
 ---
 
